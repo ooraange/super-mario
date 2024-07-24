@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
+    font-family: "VT323", monospace;
+}
+
+body {
+    background-color: black;
+    padding: 30px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#titleImage {
+    width: 100%;
+    height: auto;
+    position: center;
+    padding: 60px;
+    text-align: center;
+}
+
+.frontmenu {
+    image-rendering: pixelated;
+}
+
+button {
+    position: relative;
+    width: 50px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 50px 20px;
+    font-weight: bold;
+    border: 2px pixelated #ffffff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
